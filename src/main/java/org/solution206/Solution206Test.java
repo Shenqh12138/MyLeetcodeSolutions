@@ -12,7 +12,7 @@ public class Solution206Test {
         ListNode listNode1 = new ListNode(1, listNode2);
         System.out.println(listNode1);
         Solution206 solution206 = new Solution206();
-        solution206.reverseList(listNode1);
-        System.out.println(listNode1);
+        ListNode result = solution206.reverseList(listNode1);
+        System.out.println(result);
     }
 }
