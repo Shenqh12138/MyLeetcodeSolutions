@@ -1,6 +1,6 @@
 package org.solution21;
 
-public class solution21 {
+public class Solution21 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
         ListNode cur = dummyHead;
