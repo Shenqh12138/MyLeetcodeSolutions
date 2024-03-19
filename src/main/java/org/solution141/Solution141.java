@@ -3,6 +3,7 @@ package org.solution141;
 import java.util.HashMap;
 
 public class Solution141 {
+    // 环形链表三连问： 1. 是否有环 2. 找出环的入口 3. 环中节点个数
     public boolean hasCycle(ListNode head) {
         // hashtable
         HashMap<ListNode, Integer> map = new HashMap<>();
