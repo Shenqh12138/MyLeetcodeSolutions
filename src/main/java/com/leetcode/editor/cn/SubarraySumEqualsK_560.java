@@ -55,10 +55,7 @@ public class SubarraySumEqualsK_560 {
                     sum += nums[i + j];
                     if (sum == k){
                         result++;
-                        break;
                     }
-                    if (sum > k)
-                        break;
                 }
             }
             return result;
